@@ -7,21 +7,24 @@ This save file is copied to a **backup** folder, which you **have** create on yo
 The .bat file is simply a quick way to run the .ps1 file, because on Windows .ps1 files can't be executed with a double-click.
 
 ## Setup
-For the script to work, you HAVE to enter this command in your PowerShell:
+### Powershell setup
+For the script to work, you HAVE to enter this command in your PowerShell (run on admin):
 ```
 Set-ExecutionPolicy RemoteSigned
 ```
 Otherwise, Windows won't permit the execution of .ps1 files.
 
+### Files configuration
 Neither file has specified paths to the game files.  
 
-You have to change the .bat extension to .txt and change the path to your .ps1 path.  
-The .ps1 has to be edited too, by switching the paths to your game files' path and the backup folder. Don't forget to put the year you are playing in ACTUAL_YEAR!
+You have to change the .bat extension to .txt and change the path to your .ps1 file.  
+The .ps1 has to be edited too, by switching the paths to your game files path and the backup folder. This can be done in notepad, without changing the file extension.  
+Don't forget to put the year you are playing in ACTUAL_YEAR!
 
 ## How to use
 
-Double-click .bat file.  
-Just do it before opening the game (safety reasons)! 
+Double-click the .bat file, it will open a powershell and run the commands. When it closes, your backup is done!  
+Just do it **before** launching the game _(safety reasons)_! 
 
 ## Loading the Backup
 
