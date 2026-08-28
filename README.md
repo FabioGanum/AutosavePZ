@@ -13,10 +13,16 @@ Set-ExecutionPolicy RemoteSigned
 ```
 Otherwise, Windows won't permit the execution of .ps1 files.
 
-Neither file has specified paths to the game files.
-You have to change the .bat extension to .txt and change the path to your .ps1 path.
+Neither file has specified paths to the game files.  
+
+You have to change the .bat extension to .txt and change the path to your .ps1 path.  
 The .ps1 has to be edited too, by switching the paths to your game files' path and the backup folder. Don't forget to put the year you are playing in ACTUAL_YEAR!
 
 ## How to use
+
+Double-click .bat file.  
+Just do it before opening the game (safety reasons)! 
+
+## Loading the Backup
 
 Later, if you want to use your backup, simply copy the file from your backup folder and paste it into the game's save files (don't forget to delete the current save before loading the new one).
